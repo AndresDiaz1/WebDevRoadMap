@@ -1,0 +1,8 @@
+SSH -> Secure Shell
+It is a protocol. Is a way to make machines communicate to one another.
+
+In the command Line, you run: ~ ssh {user}@{host}. That mean connect to {host} server trough  the {user} user.
+
+Symetrical Encryption -> Uses 1 secret key fron encryption and decryption.
+Asymetrical encryption -> Uses 2 separated keys for encryption and decryption.
+Hashing -> Is not meant to decrypt anything, it just generate a unic value for each input.
