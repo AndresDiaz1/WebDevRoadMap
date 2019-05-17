@@ -1,0 +1,36 @@
+There are 3 main areas where you can do performnace enhancements.
+1. Front End
+2.Network.
+3 Back End
+
+----- Network -----
+
+Minimize Text (HTML, CSS adn JS) -> Minimize and uglify;
+Minimize images -> JPG: are used to photos and things with many colors. It DOES NOT allow transparency. It weights a lot. - Reduce it with "JPEG Optimizer" tool
+                -> GIF: smaller amount of colors, that means that it will not weight so much.
+                -> PNG: smaller in weight than a JPG but bigger than a GIF. it DOES allow transparency. - Reduce it with "Tiny PNG" tool
+                -> SVG: is another category than the other ones. It can be scaled and it will look as it was originally. they are small, and can be modified with CSS
+
+Remove Images Metatags: verexif.com is a tool to remove images metatags.                
+
+-------------------
+
+----- Critical Render Path -----
+
+    ----------------------------------------------------------
+    |            DOM Content Loaded                    Load  |
+    |                    |                              |    |
+    |                    v                              v    |
+    |    DOM -> CSSOM ->  Render tree -> Layout -> Paint     |
+    ----------------------------------------------------------
+
+    DOM -> Load CSS  in the <head>. Load scripts right before </body>
+    Scripts loading: <script> -> Critical app scripts
+                     <script async> -> if the core functionality requires JS async is best - 3rd party scripts that do not affect the DOM.
+                     <script defer> -> if the core functionality does not requires JS async is best - 3rd party script that are not that important.
+
+--------------------------------
+
+Tools for performance testing:
+- PageSpeed Insights (by Google)
+- WebPageTest
