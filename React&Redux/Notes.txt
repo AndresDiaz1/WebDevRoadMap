@@ -1,0 +1,10 @@
+Angular vs React vs Vue
+
+All of them are just tools, there is no perfect tool to use for everything, each one accomplish just perfect a set of specific scenarios.
+
+Angular -> If the code base is massive (like a bank) pick Angular, because Angular is a framework. It is opinionated it has specific ways of doing things; so if you have a lot of developers, you can be sure that everyone is stick to rules.
+           It is like the kitchen, with all the tools you need to cook. And everyone works in the same kitchen.
+React -> If I work in a company with a strong development team and also needs to be flexible and evolve, adding different libraries and tools.I can trust that developer will build something with all these tools on top of React taht works for my company. Something flexible.
+         It is like the oven,we can cook in the oven, but we need some other tools
+Vue -> If I want a way of writing code that is friendly and easy to pick up if you hire a lot of junior devs
+       It is like the microwave, it is super simple and easy to pickup and less complicated that an oven.
